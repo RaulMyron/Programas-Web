@@ -1,2 +1,6 @@
-# Programas-Web
-# Aulas Java - Lógica da Programação - Programas em Java - Aluno: Raul Myron - Professor: Júlio "Mestre" - Ano: 2017 - 1º ano do curso técnico do IFTO
+# Web Design e Programas Web
+- HTML e CSS
+- Aluno: Raul Myron
+- Professor: José Roberto
+- Ano: 2017
+- 1º ano do curso técnico do IFTO
