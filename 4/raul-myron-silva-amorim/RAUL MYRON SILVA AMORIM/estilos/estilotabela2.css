@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+table, th, td {
+    background: #8B1A1A;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 600px;   
+}
+th{
+    background: #00BFFF;
+    font-size: 20px;
+}
+td{
+    font-size: 18px;
+}
+
+caption{
+    color: gray;
+     font-family: 'Raleway', sans-serif;
+     font-size: 160%;
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Atma|Amatic+SC:400,700|Comfortaa|Indie+Flower|Reenie+Beanie|Rubik');
+
+*{margin: 0; padding: 0;}
+
+body{background:  #525252 url("../imagens/tree_night_sunset_sky_116679_1366x768.jpg") no-repeat; background-size: 2000px;  background-attachment: fixed; font-family: verdana,arial,sans-serif ;}
+
+.eixo{width: 1000px; margin: 0 auto;}
+
+#topo{background: rgba(120,192,230,0.1); padding: 20px;   
+}
+
+
+
+#topo h1{
+    color:white;    
+        font-family: 'Reenie Beanie', cursive;
+         font-size: 270%;
+}
+
+#topo a{color:white; text-decoration: none;
+
+
+}
+#conteudoINDEX h5, #conteudoINDEX {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+         font-size: 110%;
+}
+#conteudoINDEX h3{
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+#nav{ background: rgba(17,114, 237, 0.45); }
+
+#menu li{
+    float: left;
+}
+
+#menu ul{
+ margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+}
+
+#menu a{
+    display: block ;
+    
+    padding: 20px;
+    border-right: 0.5px solid black ; 
+    text-align: center;
+    
+    color:white;
+    text-decoration: none;
+}
+
+/* NÃO FIZ A LISTA COM LIST-STYLE: INLINE-BLOCK POIS DAVA UM BUG COM O PADDING DE 10PX,
+POR ISSO FIZ NO FLOAT PARA CORRIGIR O BUG E DEIXAR CORRETO */
+
+#menu ul li {
+    list-style:none;
+
+    font-family: 'Comfortaa', cursive;
+
+}
+
+#menu a:hover{  
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+}
+
+#conteudo h1{
+    font-family: 'Atma', cursive;
+}
+
+#conteudo{
+    float: left;
+    padding: 15px; background: rgba(255,255,255, 0.9);}
+
+#conteudoINDEX  {
+    float: left;
+    padding: 15px; background: rgba(255,255,255, 0.9);}
+
+#conteudoINDEX  a {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+           font-size: 180%;
+    
+           color: black;
+    font-style: oblique;       
+}
+
+
+
+
+#miniNAV h5, #miniNAV a{
+            text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+         font-size: 105%;
+         color:black;
+}
+
+#conteudo h1{
+    font-family: 'Comfortaa', cursive;
+}
+#conteudo p{
+    font-family: 'Comfortaa', cursive;
+}
+#conteudo figure{
+  font-family: 'Comfortaa', cursive;
+}
+/*
+#conteudo a {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+           font-size: 180%;
+           color: black;
+    font-style: oblique;       
+}
+*/
+
+#conteudo h1, #conteudo h2, #conteudo h3, #conteudo h4, #conteudo h5, #conteudo h5, #conteudo p{margin-bottom: 20px;}
+
+#conteudo p{line-height: 25px;}
+
+#conteudo figure{background:floralwhite; width: 300px; margin-bottom: 30px; padding: 10px;}
+
+#conteudoINDEX h1,#conteudoINDEX  h2, #conteudoINDEX  h3, #conteudoINDEX  h4, #conteudoINDEX  h5,#conteudoINDEX  h5, #conteudoINDEX  p{margin-bottom: 20px;}
+
+#conteudoINDEX p{line-height: 25px;}
+
+#conteudoINDEX figure{background:floralwhite; width: 300px; margin-bottom: 30px; padding: 10px;}
+
+figure img{width: 100%;}
+
+
+.poxa{
+    float: left;
+    margin-right: 20px;
+}
+
+.poxaMID{
+    float: left;
+clear: right;
+margin-right:20px;
+}
+
+.poxaRIGHT{
+    float: right;
+    clear: right;
+    margin: 0;
+    padding: 0;
+}
+
+
+#conteudoINDEX{
+    float: left;
+    min-height: 450px;
+    max-height: 700px;
+    min-width: 1000px;
+    max-width: 1000px
+       
+}
+
+#conteudo{
+    float: left;   
+    
+    min-height: 700px;
+    max-height: 3000px;
+    
+    min-width: 700px;
+    max-width: 700px;
+}
+
+#auxiliar ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background:rgba(17,114, 237, 0.45);
+    border: 1px;
+    min-height: 120px;
+    max-height: 1000px;
+    min-width: 240px;
+        width: 240px;
+    max-width: 240px;
+    
+   
+
+}
+
+#auxiliar li a{
+     font-family: 'Comfortaa', cursive;
+}
+
+#auxiliar li a{
+    display: block;
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none;
+}
+
+#auxiliar li {
+    text-align: center;
+    border-top: 0.5px solid black;
+}
+#auxiliar ul li:hover{
+    color: black;
+}
+#auxiliar li:hover{
+ text-decoration: underline;
+    color: black;
+    background-color: rgba(0, 1, 7, 0.75)
+}
+
+#rodape{
+    min-height: 18px;
+    min-width: 1000px;
+    background: rgba(0, 1, 7, 0.75); padding: 15px; text-align: center; color: #dddddd;
+    float: left;
+    clear:both; 
+    font-family: 'Comfortaa', cursive;
+
+} 
+

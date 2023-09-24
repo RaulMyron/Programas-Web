@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Itim');
+table, th, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    color: bisque;
+font-family: 'Itim', cursive;
+
+}
+tr{
+    font-size: 26px;
+}
+td{
+    font-size: 23px;
+}
+tr:nth-child(2n){
+       background: #2E3052;
+    
+}
+
+caption{
+	font-size: 40px;
+	color: #2E3052;
+		
+}
+
+tr:nth-child(2n+1){
+    background: #c60023;
+
+
+}
+
+tr:hover{
+    background:#ff6d23;
+}

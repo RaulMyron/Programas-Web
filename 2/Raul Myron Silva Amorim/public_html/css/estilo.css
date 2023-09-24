@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    font-family: verdana,arial,sans-serif ;
+    background-image: url(../Imagens/top.jpg);
+    background-color: rgba(254, 71, 47, 0.75);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    }
+.eixo {
+ width: 1000px;
+   margin: auto;
+}
+#topo{
+    background-color: rgba(192,192,192,0.5);
+    padding: 20px;
+    
+}
+#topo h1, a{  color:rgba(5,5,5,0.5);
+           text-decoration: none;  
+                        }
+        
+
+#nav {
+    padding: 10px;
+    background-color: rgba(0,0,0, 0.67);
+       }
+       #nav a{
+                text-decoration: none;     
+                color:white;
+                padding-right:  10px;
+               border-right: 1px solid;
+                display: inline-block;
+              
+       }      
+       #nav a:hover{
+            background-color: orange; 
+           color: orangered;
+           text-decoration: underline;
+       }
+       #conteudo{background-color: rgba(255,255,255,0.9); padding:15px;  }
+       #conteudo h1, p{margin-bottom: 20px;}
+       #conteudo h1, h5{margin-bottom: 15px;}
+       #conteudo p{line-height: 20px;}
+       #conteudo figure{background-color:floralwhite; width: 300px; margin-bottom: 30px; padding: 10px;}
+       #conteudo figure img{width:100%;}
+#rodape{
+    color: whitesmoke;
+    background-color: rgba(0, 1, 7, 0.75);
+    padding: 15px;
+    font-size: small;
+    text-align: center;
+   
+}

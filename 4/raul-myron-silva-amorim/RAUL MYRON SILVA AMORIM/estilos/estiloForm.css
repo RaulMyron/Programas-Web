@@ -1,0 +1,85 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*definimos a fonte a ser utilizada no conteúdo e a cor 
+defundo da página*/
+body{
+    font-family: sans-serif;
+    background: #cccccc;
+    color: #888888;
+}
+
+/*centralizamos o conteúdo*/
+.eixo{
+    background: #ffffff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/*selecionamos e estilizamos o título*/
+.eixo h1{
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #339900;
+}
+
+/*aplicamos um espaçamento para cada conjunto de rótulo e 
+controle que estão agrupados nesta classe. Caso contrário
+cada campo ficaria muito junto*/
+.grupo-controle{
+    padding: 5px 0px;/*espamento apenas na parte superior e inferior*/
+}
+
+/*flutuamos o rotulo para que gere uma coluna*/
+.rotulo{
+    float: left;
+    width: 100px;
+}
+
+/*flutuamos para gera a segunda coluna*/
+.controle{
+    float: left;
+    width: 500px;
+}
+
+/*selecionamos todos os filhos imediatos de controle (elementos input)
+e o botão e aplicamos bordas arredondadas*/
+.controle > *, button{
+    border-radius: 5px;
+}
+
+/*definimos a altura de todos os controle input*/
+.controle input{
+    height: 30px;
+}
+
+/*selecionamos os elementos input que não tem o tipo type
+e o elemento textarea e definimos que ele vai ocupar 
+100% da largura do elemento pai*/
+.controle input:not([type="number"]), textarea{
+    width: 100%;
+}
+
+
+/*estilizando o botão*/
+button{
+    border: none;/*retirando as linhas da borda*/
+    padding: 15px;
+    background: #00cc33;
+    color: #ffffff;
+    float: right; /*flutuando o botão para posicioná-lo do lado direito*/
+}
+
+/*Quando os elementos contidos em um elemento flutuam 
+ele perde a altura, com esta regra estamos devolvendo a
+altura do elemento container*/
+.grupo-controle:after {
+    content: '';
+    display: block;
+    clear: both;
+}
